@@ -1,0 +1,16 @@
+.win{
+    border: 4px solid greenyellow !important;
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.lose{
+    border-color: $pink !important;
+    box-shadow: 0 0 10px $pink;
+
+}
+
+.draw{
+    border-color: gray !important;
+    box-shadow: 0 0 10px gray;
+
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: $lato;
+    background-color: $brown;
+    header{
+        background-color: $cream;
+        color: $brown;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .score-board{
+        border: 4px solid $cream;
+        width: 200px;
+        margin: 20px auto;
+        color: $cream;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 15px 20px;
+
+        
+        .badge {
+            background-color: $pink;
+            text-transform: uppercase;
+            font-size: 10px;
+            width: 50px;
+            
+
+            
+        }
+    }
+
+    .result{
+        text-align: center;
+        color: $cream;
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .choices{
+        margin: 20px;
+        color: $cream;
+        text-transform: uppercase;
+        text-align: center;
+
+        .choice{
+            height: 100px;
+            width: 100px;
+            padding-top: 35px;
+            margin-top: 20px;
+            display: inline-block;
+            border: 4px solid $cream;
+            border-radius: 50%;
+            &:hover{
+                cursor: pointer;
+                background-color: $dbrown;
+            }
+        }
+    }
+
+    
+
+}
+
+
+#user{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    padding: 2px;
+}
+
+#comp{
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    padding: 2px;
+}
+
+#action-massage{
+    color: $cream;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
